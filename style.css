@@ -1,0 +1,83 @@
+html {
+    scroll-behavior: smoothly;
+}
+body {
+    text-align: center;
+    background-color: darkseagreen;
+    background-image: linear-gradient( lightcyan, lawngreen, darkseagreen)
+}
+.menu {
+    text-align: center;
+    z-index: 10;
+    position: fixed;
+    background: white;
+    margin-top: 0;
+    top: 0;
+    width: 100%;
+}
+.links {
+    color: black;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover {
+    background-color: lightgoldenrodyellow;
+    font-size: 25px;
+    text-decoration: underline;
+}
+img:hover {
+    transform: scale(0.9)
+}
+.lin {
+    width: 200px;
+    height: 6px;
+    background-color: darkgreen;
+    margin: 8px auto;
+}
+.linlon {
+    width: 100%;
+    height: 6px;
+    background-color: darkgreen;
+    margin: 8px auto;
+}
+.titl {
+    font-size: 35px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px darkgreen;
+    font-weight: bolder;
+}
+p {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.row {
+    text-align: center;
+}
+.grim {
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+a {
+    text-decoration: none;
+}
+#myCarousel img {
+    height 100px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.img-responsive {
+   height 100px; 
+}
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
